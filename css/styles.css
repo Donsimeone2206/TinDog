@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+/* Headings */
+.big-heading {
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold';
+}
+p {
+    color: #8f8f8f;
+}
+/* Container */
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Section */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section {
+    background-color: #fff;
+}
+/* Nav bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat-Light';
+    font-size: 1.2rem;
+}
+/* Download Button */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+/* Title */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+/* Title Image */
+.title-image {
+    position: absolute;
+    right: 25%;
+    transform: rotate(25deg);
+    width: 23%;
+}
+/* Features Section */
+#features {
+    position: relative;
+}
+.features-box {
+    padding: 5%;
+}
+.features-title {
+    font-size: 1.5rem;
+}
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+/* testimonials section */
+#testimonials {
+    background-color: #ef8172;
+}
+.testimonial-image {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+/* pricing section */
+#pricing {
+    padding: 100px;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* cta section */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    } 
+}
+
+
+
+
